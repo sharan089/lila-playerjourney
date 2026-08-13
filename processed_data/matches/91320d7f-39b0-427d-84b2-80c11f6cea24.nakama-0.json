@@ -1,0 +1,252 @@
+{
+  "match_id": "91320d7f-39b0-427d-84b2-80c11f6cea24.nakama-0",
+  "map": "AmbroseValley",
+  "date": "February_13",
+  "players": [
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "events": 21
+    }
+  ],
+  "events": [
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.608000",
+      "x": -143.9503631591797,
+      "z": -190.64695739746094,
+      "pixel_x": 257.19,
+      "pixel_y": 702.74,
+      "elapsed_ms": 0
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.633000",
+      "x": -140.74537658691406,
+      "z": -185.62380981445312,
+      "pixel_x": 260.84,
+      "pixel_y": 697.03,
+      "elapsed_ms": 25
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.638000",
+      "x": -152.15802001953125,
+      "z": -170.05902099609375,
+      "pixel_x": 247.86,
+      "pixel_y": 679.32,
+      "elapsed_ms": 30
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.643000",
+      "x": -161.45211791992188,
+      "z": -170.22593688964844,
+      "pixel_x": 237.28,
+      "pixel_y": 679.51,
+      "elapsed_ms": 35
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.688000",
+      "x": -158.55860900878906,
+      "z": -143.99244689941406,
+      "pixel_x": 240.57,
+      "pixel_y": 649.66,
+      "elapsed_ms": 80
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.693000",
+      "x": -143.46585083007812,
+      "z": -121.38524627685547,
+      "pixel_x": 257.75,
+      "pixel_y": 623.94,
+      "elapsed_ms": 85
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.698000",
+      "x": -133.63827514648438,
+      "z": -96.29137420654297,
+      "pixel_x": 268.93,
+      "pixel_y": 595.39,
+      "elapsed_ms": 90
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.703000",
+      "x": -132.3911590576172,
+      "z": -73.77283477783203,
+      "pixel_x": 270.35,
+      "pixel_y": 569.77,
+      "elapsed_ms": 95
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.708000",
+      "x": -144.430419921875,
+      "z": -68.38015747070312,
+      "pixel_x": 256.65,
+      "pixel_y": 563.63,
+      "elapsed_ms": 100
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.713000",
+      "x": -139.49166870117188,
+      "z": -69.76099395751953,
+      "pixel_x": 262.27,
+      "pixel_y": 565.2,
+      "elapsed_ms": 105
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.718000",
+      "x": -131.8688201904297,
+      "z": -55.49436950683594,
+      "pixel_x": 270.94,
+      "pixel_y": 548.97,
+      "elapsed_ms": 110
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.723000",
+      "x": -114.73551940917969,
+      "z": -49.31425094604492,
+      "pixel_x": 290.43,
+      "pixel_y": 541.94,
+      "elapsed_ms": 115
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.728000",
+      "x": -115.63495635986328,
+      "z": -46.18318557739258,
+      "pixel_x": 289.41,
+      "pixel_y": 538.38,
+      "elapsed_ms": 120
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.733000",
+      "x": -113.53091430664062,
+      "z": -44.45038986206055,
+      "pixel_x": 291.8,
+      "pixel_y": 536.41,
+      "elapsed_ms": 125
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.738000",
+      "x": -115.89202880859375,
+      "z": -41.2043342590332,
+      "pixel_x": 289.12,
+      "pixel_y": 532.71,
+      "elapsed_ms": 130
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.743000",
+      "x": -119.77686309814453,
+      "z": -39.48200225830078,
+      "pixel_x": 284.7,
+      "pixel_y": 530.75,
+      "elapsed_ms": 135
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.749000",
+      "x": -123.13289642333984,
+      "z": -36.82124710083008,
+      "pixel_x": 280.88,
+      "pixel_y": 527.73,
+      "elapsed_ms": 141
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.754000",
+      "x": -124.32088470458984,
+      "z": -33.43092346191406,
+      "pixel_x": 279.53,
+      "pixel_y": 523.87,
+      "elapsed_ms": 146
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.764000",
+      "x": -124.65926361083984,
+      "z": -28.826332092285156,
+      "pixel_x": 279.14,
+      "pixel_y": 518.63,
+      "elapsed_ms": 156
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:05.769000",
+      "x": -126.11978149414062,
+      "z": -24.913461685180664,
+      "pixel_x": 277.48,
+      "pixel_y": 514.18,
+      "elapsed_ms": 161
+    },
+    {
+      "user_id": "4f1a4ce1-70f6-43a5-bfc7-e446e44ee043",
+      "type": "human",
+      "event": "BotKilled",
+      "timestamp": "1970-01-21T11:56:05.773000",
+      "x": -128.54808044433594,
+      "z": -22.591989517211914,
+      "pixel_x": 274.72,
+      "pixel_y": 511.54,
+      "elapsed_ms": 165
+    }
+  ],
+  "start_timestamp": "1970-01-21T11:56:05.608000",
+  "end_timestamp": "1970-01-21T11:56:05.773000",
+  "duration_ms": 165,
+  "player_count": 1,
+  "human_count": 1,
+  "bot_count": 0,
+  "event_count": 21
+}

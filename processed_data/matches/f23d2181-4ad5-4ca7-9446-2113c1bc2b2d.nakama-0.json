@@ -1,0 +1,76 @@
+{
+  "match_id": "f23d2181-4ad5-4ca7-9446-2113c1bc2b2d.nakama-0",
+  "map": "Lockdown",
+  "date": "February_12",
+  "players": [
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "events": 5
+    }
+  ],
+  "events": [
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:55:14.980000",
+      "x": -124.9175796508789,
+      "z": 84.65885925292969,
+      "pixel_x": 384.08,
+      "pixel_y": 425.31,
+      "elapsed_ms": 0
+    },
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:55:15.005000",
+      "x": -117.5064926147461,
+      "z": 86.56727600097656,
+      "pixel_x": 391.67,
+      "pixel_y": 423.36,
+      "elapsed_ms": 25
+    },
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:55:15.010000",
+      "x": -95.2817611694336,
+      "z": 82.0943374633789,
+      "pixel_x": 414.43,
+      "pixel_y": 427.94,
+      "elapsed_ms": 30
+    },
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "event": "BotKilled",
+      "timestamp": "1970-01-21T11:55:15.013000",
+      "x": -92.46148681640625,
+      "z": 83.1381607055664,
+      "pixel_x": 417.32,
+      "pixel_y": 426.87,
+      "elapsed_ms": 33
+    },
+    {
+      "user_id": "b69ca9d6-d27d-4a61-b6d8-6e747cee8f79",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:55:15.015000",
+      "x": -92.46148681640625,
+      "z": 83.1381607055664,
+      "pixel_x": 417.32,
+      "pixel_y": 426.87,
+      "elapsed_ms": 35
+    }
+  ],
+  "start_timestamp": "1970-01-21T11:55:14.980000",
+  "end_timestamp": "1970-01-21T11:55:15.015000",
+  "duration_ms": 35,
+  "player_count": 1,
+  "human_count": 1,
+  "bot_count": 0,
+  "event_count": 5
+}

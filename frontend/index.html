@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LILA Player Journey</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div>
+            <h1>LILA Player Journey</h1>
+            <p>Gameplay telemetry visualization</p>
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            Data loaded
+        </div>
+    </header>
+
+
+    <main class="dashboard">
+
+        <!-- FILTER PANEL -->
+
+        <section class="controls">
+
+            <div class="control-group">
+                <label for="mapSelect">Map</label>
+
+                <select id="mapSelect">
+                    <option value="all">All Maps</option>
+                    <option value="AmbroseValley">Ambrose Valley</option>
+                    <option value="GrandRift">Grand Rift</option>
+                    <option value="Lockdown">Lockdown</option>
+                </select>
+            </div>
+
+
+            <div class="control-group">
+                <label for="dateSelect">Date</label>
+
+                <select id="dateSelect">
+                    <option value="all">All Dates</option>
+                </select>
+            </div>
+
+
+            <div class="control-group">
+                <label for="matchSelect">Match</label>
+
+                <select id="matchSelect">
+                    <option value="all">Select Match</option>
+                </select>
+            </div>
+
+        </section>
+
+
+        <!-- MAIN MAP -->
+
+        <section class="map-section">
+
+            <div class="map-header">
+
+                <div>
+                    <h2 id="mapTitle">Select a match</h2>
+
+                    <p id="matchInfo">
+                        Choose a match to visualize player movement.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="map-container">
+
+                <img
+                    id="mapImage"
+                    src=""
+                    alt="Game minimap"
+                >
+
+                <canvas id="mapCanvas"></canvas>
+
+                <div
+                    id="mapPlaceholder"
+                    class="map-placeholder"
+                >
+                    <div class="placeholder-icon">🗺️</div>
+
+                    <h3>No match selected</h3>
+
+                    <p>
+                        Select a match above to display
+                        player journeys.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PLAYER / EVENT INFORMATION -->
+
+        <section class="info-panel">
+
+            <div class="info-card">
+
+                <span class="info-label">
+                    Players
+                </span>
+
+                <strong id="playerCount">
+                    —
+                </strong>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-label">
+                    Humans
+                </span>
+
+                <strong id="humanCount">
+                    —
+                </strong>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-label">
+                    Bots
+                </span>
+
+                <strong id="botCount">
+                    —
+                </strong>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-label">
+                    Events
+                </span>
+
+                <strong id="eventCount">
+                    —
+                </strong>
+
+            </div>
+
+        </section>
+
+
+        <!-- TIMELINE -->
+
+        <section class="timeline-panel">
+
+            <div class="timeline-controls">
+
+                <button
+                    id="playButton"
+                    class="play-button"
+                >
+                    ▶ Play
+                </button>
+
+
+                <button
+                    id="resetButton"
+                    class="secondary-button"
+                >
+                    Reset
+                </button>
+
+
+                <div class="timeline-time">
+
+                    <span id="currentTime">
+                        00:00
+                    </span>
+
+                    <span>
+                        /
+                    </span>
+
+                    <span id="totalTime">
+                        00:00
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <input
+                id="timeline"
+                type="range"
+                min="0"
+                max="100"
+                value="100"
+                step="1"
+            >
+
+        </section>
+
+
+        <!-- ANALYTICS -->
+
+        <section class="analytics-panel">
+
+            <div class="analytics-header">
+                <h3>MATCH ANALYTICS</h3>
+            </div>
+
+            <div
+                id="matchAnalyticsSummary"
+                class="match-analytics-summary"
+            ></div>
+
+            <div
+                id="topPlayerSummary"
+                class="top-player-summary"
+            ></div>
+
+            <div class="analytics-table-wrap">
+                <table class="analytics-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Type</th>
+                            <th>Distance</th>
+                            <th>Speed</th>
+                            <th>Kills</th>
+                            <th>Deaths</th>
+                            <th>Loot</th>
+                            <th>Events</th>
+                        </tr>
+                    </thead>
+                    <tbody id="playerAnalyticsBody"></tbody>
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- PLAYER JOURNEY -->
+
+        <section class="analytics-panel journey-panel" id="playerJourneyPanel">
+            <div class="analytics-header">
+                <h3>PLAYER JOURNEY</h3>
+            </div>
+
+            <div id="playerJourneyMeta" class="journey-meta">
+                Select a player from the analytics table to view their journey.
+            </div>
+
+            <div id="playerJourneyList" class="journey-list"></div>
+        </section>
+
+
+        <!-- MATCH INSIGHTS -->
+
+        <section class="analytics-panel insights-panel" id="matchInsightsPanel">
+            <div class="analytics-header">
+                <h3>MATCH INSIGHTS</h3>
+            </div>
+
+            <div id="matchInsightsList" class="insights-list"></div>
+        </section>
+
+
+        <!-- LEGEND -->
+
+        <section class="legend">
+
+            <div class="legend-item">
+                <span class="legend-dot human"></span>
+                Human
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot bot"></span>
+                Bot
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot loot"></span>
+                Loot
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot kill"></span>
+                Kill
+            </div>
+
+            <div class="legend-item">
+                <span class="legend-dot death"></span>
+                Death
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

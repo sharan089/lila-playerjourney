@@ -1,0 +1,87 @@
+{
+  "match_id": "8f1e1b63-e3f4-4fb1-9254-7d8c433428c4.nakama-0",
+  "map": "Lockdown",
+  "date": "February_14",
+  "players": [
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "events": 6
+    }
+  ],
+  "events": [
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:57:50.455000",
+      "x": -121.19053649902344,
+      "z": 85.24974822998047,
+      "pixel_x": 387.9,
+      "pixel_y": 424.7,
+      "elapsed_ms": 0
+    },
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:57:50.475000",
+      "x": -117.08953094482422,
+      "z": 84.814453125,
+      "pixel_x": 392.1,
+      "pixel_y": 425.15,
+      "elapsed_ms": 20
+    },
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:57:50.480000",
+      "x": -99.08181762695312,
+      "z": 83.86888885498047,
+      "pixel_x": 410.54,
+      "pixel_y": 426.12,
+      "elapsed_ms": 25
+    },
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:57:50.495000",
+      "x": -93.89045715332031,
+      "z": 86.40302276611328,
+      "pixel_x": 415.86,
+      "pixel_y": 423.52,
+      "elapsed_ms": 40
+    },
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:57:50.500000",
+      "x": -94.28411865234375,
+      "z": 82.33011627197266,
+      "pixel_x": 415.45,
+      "pixel_y": 427.69,
+      "elapsed_ms": 45
+    },
+    {
+      "user_id": "b3340cc5-c9fa-4108-b56d-0728bc978a22",
+      "type": "human",
+      "event": "BotKilled",
+      "timestamp": "1970-01-21T11:57:50.508000",
+      "x": -93.5710220336914,
+      "z": 81.8577880859375,
+      "pixel_x": 416.18,
+      "pixel_y": 428.18,
+      "elapsed_ms": 53
+    }
+  ],
+  "start_timestamp": "1970-01-21T11:57:50.455000",
+  "end_timestamp": "1970-01-21T11:57:50.508000",
+  "duration_ms": 53,
+  "player_count": 1,
+  "human_count": 1,
+  "bot_count": 0,
+  "event_count": 6
+}

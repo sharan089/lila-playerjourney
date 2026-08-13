@@ -1,0 +1,87 @@
+{
+  "match_id": "99fbbc26-7d87-4ca2-9f3b-ce960169f035.nakama-0",
+  "map": "Lockdown",
+  "date": "February_13",
+  "players": [
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "events": 6
+    }
+  ],
+  "events": [
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:20.196000",
+      "x": -234.88938903808594,
+      "z": 186.30670166015625,
+      "pixel_x": 271.47,
+      "pixel_y": 321.22,
+      "elapsed_ms": 0
+    },
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:20.221000",
+      "x": -230.0354766845703,
+      "z": 182.0168914794922,
+      "pixel_x": 276.44,
+      "pixel_y": 325.61,
+      "elapsed_ms": 25
+    },
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:20.227000",
+      "x": -217.84458923339844,
+      "z": 175.773193359375,
+      "pixel_x": 288.93,
+      "pixel_y": 332.01,
+      "elapsed_ms": 31
+    },
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:20.232000",
+      "x": -224.64291381835938,
+      "z": 191.3515167236328,
+      "pixel_x": 281.97,
+      "pixel_y": 316.06,
+      "elapsed_ms": 36
+    },
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "Position",
+      "timestamp": "1970-01-21T11:56:20.242000",
+      "x": -222.56651306152344,
+      "z": 188.1776885986328,
+      "pixel_x": 284.09,
+      "pixel_y": 319.31,
+      "elapsed_ms": 46
+    },
+    {
+      "user_id": "0e070271-33e4-4cb8-9743-81fa26cab07f",
+      "type": "human",
+      "event": "BotKilled",
+      "timestamp": "1970-01-21T11:56:20.323000",
+      "x": -222.56651306152344,
+      "z": 188.01492309570312,
+      "pixel_x": 284.09,
+      "pixel_y": 319.47,
+      "elapsed_ms": 127
+    }
+  ],
+  "start_timestamp": "1970-01-21T11:56:20.196000",
+  "end_timestamp": "1970-01-21T11:56:20.323000",
+  "duration_ms": 127,
+  "player_count": 1,
+  "human_count": 1,
+  "bot_count": 0,
+  "event_count": 6
+}
